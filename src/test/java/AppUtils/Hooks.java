@@ -49,13 +49,14 @@ public class Hooks {
 		lp.UserEnterUsernamehooks();
 		lp.UserEnterpasswordhooks();
 		lp.clickOnLogin();
+		System.out.println("Login success");
 	}
 
 	@BeforeStep
 	public void test_execution_started() {
 
 		System.out.println("Before test step started");
-		System.out.println("Done");
+	
 	}
 
 	@AfterStep
